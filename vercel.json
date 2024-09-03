@@ -1,0 +1,14 @@
+{
+    "name":"Day 16",
+    "version":2,
+    "builds":[{
+        "src":"*py",
+        "use":"@vercel/python"
+    
+    }],
+    "routers":[
+        {
+            "src":"(.*)","dest":"app.py"
+        }
+    ]
+}
